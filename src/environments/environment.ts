@@ -1,4 +1,5 @@
 export const environment = {
   production: true,
-  baseUrl: undefined,
+  serverBaseUrl: 'http://localhost:3000/api/v1',
+  coursesEndpoint: '/courses',
 }
